@@ -140,3 +140,8 @@ footer {
     margin-top: rem;      /* Espacio arriba */
     white-space: pre-wrap; /* Permite saltos de línea + ajuste automático */
 }
+body.contacto input,
+body.contacto textarea,
+body.contacto select {
+    color: black;
+}
