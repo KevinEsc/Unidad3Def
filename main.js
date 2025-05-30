@@ -46,13 +46,13 @@ window.addEventListener("DOMContentLoaded", () => {
     let mensaje;
 
 if (hora >= 5 && hora < 12) {
-    mensaje = "¡Buenos días! Gracias por visitarnos.";
+    mensaje = "¡Buenos días!\nGracias por visitarnos.";
 } else if (hora >= 12 && hora < 18) {
-    mensaje = "¡Buenas tardes! Disfruta tu recorrido por la galería.";
+    mensaje = "¡Buenas tardes!\n Disfruta tu recorrido por la galería.";
 } else if (hora >= 18 && hora <= 23) {
-    mensaje = "¡Buenas noches! Esperamos que encuentres inspiración.";
+    mensaje = "¡Buenas noches!\n Esperamos que encuentres inspiración.";
 } else {
-    mensaje = "¡Hola noctámbulo!\nBienvenido a nuestra galería 24/7.";
+    mensaje = "¡Hola noctámbulo!\n Bienvenido a nuestra galería 24/7.";
 }
 saludo.textContent = mensaje;
 });
