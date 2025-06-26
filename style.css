@@ -145,13 +145,7 @@ body.contacto textarea,
 body.contacto select {
     color: black;
 }
-/* Estilos para el modal dinámico */
-body {
-    background-color: #1a1a1a;
-    color: white;
-    font-family: sans-serif;
-    padding: 20px;
-}
+/* Estilos para el modal */
 
 .imagen-container {
     margin: 10px;
@@ -178,7 +172,7 @@ body {
     cursor: pointer;
 }
 
-    /* Modal personalizado */
+    /*personalizado */
 #modal {
     display: none;
     position: fixed;
